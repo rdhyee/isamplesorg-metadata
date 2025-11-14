@@ -17,7 +17,7 @@ license: https://creativecommons.org/publicdomain/zero/1.0/
 version: "20250207"
 prefixes:
   linkml: https://w3id.org/linkml/
-  isam: https://w3id.org/isample/schema/1.0/
+  isam: https://w3id.org/isample/schema/2.0/
   dct: http://purl.org/dc/terms/
   mat: https://w3id.org/isample/vocabulary/material/
   sf: https://w3id.org/isample/vocabulary/sampledfeature/
@@ -83,7 +83,7 @@ classes:
 
   SamplingSite:
     description: >
-      Documentation of the site where the sample was collected, wtih place name(s) and a geospatial location.
+      Documentation of the site where the sample was collected, with place name(s) and a geospatial location.
     slots:
       - pid
       - description
@@ -225,7 +225,7 @@ slots:
     range: uriorcurie
     description: >
       A string that identifies some resource. Expectation is that it is a URI that is resolvable to some useful
-      represenation of the resource.
+      representation of the resource.
   has_context_category:
     # range is an instance of at least one skos:Concept
     # with skos:inScheme sf:sampledfeaturevocabulary ;
@@ -288,7 +288,7 @@ slots:
     range: datetime
     domain: MaterialSampleRecord
     description: >
-      time stamp when the metadata record was most recently uupdated. 
+      time stamp when the metadata record was most recently updated. 
   latitude:
     range: decimal
     domain: GeospatialCoordLocation
@@ -365,7 +365,7 @@ slots:
   relationship:
     range: string
     description: >
-      Term to identify realationship between host sample and the sample
+      Term to identify relationship between host sample and the sample
       relation target. Should be controlled vocabulary (ScopedName). for now
       start with string, 'derivedFrom'.
   role:

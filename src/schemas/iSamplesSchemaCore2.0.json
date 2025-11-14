@@ -60,12 +60,12 @@
             "type": "string"
         },
         "last_modified_time": {
-            "description": "time stamp when the metadata record was most recently uupdated. \n",
+            "description": "time stamp when the metadata record was most recently updated. \n",
             "format": "date-time",
             "type": "string"
         },
         "pid": {
-            "description": "A string that identifies some resource. Expectation is that it is a URI that is resolvable to some useful represenation of the resource.\n",
+            "description": "A string that identifies some resource. Expectation is that it is a URI that is resolvable to some useful representation of the resource.\n",
             "type": "string"
         },
         "produced_by": {
@@ -108,7 +108,7 @@
                     "type": "string"
                 },
                 "pid": {
-                    "description": "A string that identifies some resource. Expectation is that it is a URI that is resolvable to some useful represenation of the resource.\n",
+                    "description": "A string that identifies some resource. Expectation is that it is a URI that is resolvable to some useful representation of the resource.\n",
                     "type": "string"
                 },
                 "role": {
@@ -152,7 +152,7 @@
                     "type": "string"
                 },
                 "pid": {
-                    "description": "A string that identifies some resource. Expectation is that it is a URI that is resolvable to some useful represenation of the resource.\n",
+                    "description": "A string that identifies some resource. Expectation is that it is a URI that is resolvable to some useful representation of the resource.\n",
                     "type": "string"
                 },
                 "scheme_name": {
@@ -189,7 +189,7 @@
                     "type": "string"
                 },
                 "pid": {
-                    "description": "A string that identifies some resource. Expectation is that it is a URI that is resolvable to some useful represenation of the resource.\n",
+                    "description": "A string that identifies some resource. Expectation is that it is a URI that is resolvable to some useful representation of the resource.\n",
                     "type": "string"
                 },
                 "responsibility": {
@@ -214,7 +214,7 @@
                     "type": "string"
                 },
                 "relationship": {
-                    "description": "Term to identify realationship between host sample and the sample relation target. Should be controlled vocabulary (ScopedName). for now start with string, 'derivedFrom'.\n",
+                    "description": "Term to identify relationship between host sample and the sample relation target. Should be controlled vocabulary (ScopedName). for now start with string, 'derivedFrom'.\n",
                     "type": "string"
                 },
                 "target": {
@@ -252,7 +252,7 @@
                     "type": "string"
                 },
                 "pid": {
-                    "description": "A string that identifies some resource. Expectation is that it is a URI that is resolvable to some useful represenation of the resource.\n",
+                    "description": "A string that identifies some resource. Expectation is that it is a URI that is resolvable to some useful representation of the resource.\n",
                     "type": "string"
                 },
                 "project": {
@@ -310,7 +310,7 @@
                     "type": "string"
                 },
                 "pid": {
-                    "description": "A string that identifies some resource. Expectation is that it is a URI that is resolvable to some useful represenation of the resource.\n",
+                    "description": "A string that identifies some resource. Expectation is that it is a URI that is resolvable to some useful representation of the resource.\n",
                     "type": "string"
                 },
                 "place_name": {
